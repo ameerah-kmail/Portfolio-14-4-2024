@@ -1,0 +1,222 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif; 
+    font-weight: 700;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+  
+  a{
+    text-decoration: none;
+  }
+  
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+  
+  }
+  
+
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: rgb(193, 21, 21);
+  }
+  @media only screen and (max-width : 764px){
+      .brand-name ,.navbar-light .navbar-brand{
+      font-family: "Lovely Home";
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(193, 21, 21);
+  }
+}
+  
+.headerachor {
+  margin: 0 7px 0 7px;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.headerachor:hover {
+  background-color: rgba(193, 21, 21, 0.27);
+  color: #ffffff;
+}
+@media only screen and (max-width : 764px){
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(193, 21, 21, 0.77);
+  }
+  .navbar-expand-lg .container-fluid{
+    text-align: center;
+  }
+.navbar-light .navbar-nav .nav-link:hover{
+  margin: 0 7px 0 7px;
+  font-size: 25px;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgba(193, 21, 21, 0.77);
+  color: #ffffff;
+ }
+}
+ 
+
+  #Section1{
+    padding: 7% 0 3%;
+  }
+
+  .Heading{
+    text-align: center;
+  }
+  
+.timeline{
+    margin-top:20px;
+    position:relative; 
+  }
+  
+  .timeline:before{
+    position:absolute;
+    content:'';
+    width:5px;
+    height:102.5%;
+    background: rgba(193, 21, 21, 0.666);
+    left:14px;
+    top:43.5px;
+    border-radius:4px;
+  }
+  
+  .timeline-month{
+    color:white;
+    position:relative;
+    padding:4px 15px 4px 35px;
+    background-color:rgba(193, 21, 21, 0.666);
+    display:inline-block;
+    width:auto;
+    border-radius:40px;
+    border-right-color:rgba(193, 21, 21, 0.666);
+    margin-bottom:25px;
+    font-size: 25px;
+  }
+  
+  .timeline-month span{
+    position:absolute;
+    top:-1px;
+    left:calc(100% - 10px);
+    z-index:-1;
+    white-space:nowrap;
+    display:inline-block;
+    padding:4px 10px 4px 20px;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    border:1px solid rgba(193, 21, 21, 0.666);
+    box-sizing:border-box;
+  }
+  
+  .timeline-month:before{
+    position:absolute;
+    content:'';
+    width:20px;
+    border-radius:100%;
+    left:5px;
+  }
+  
+  .timeline-section{
+    padding-left:30px;
+    display:block;
+    position:relative;
+    margin-bottom:10px;
+  }
+  
+  .timeline-date{
+    margin-bottom:10px;
+    padding:2px 15px;
+    background:rgba(255, 255, 255, 0);
+    position:relative;
+    display:inline-block;
+    border-radius:20px;
+    border:2px solid rgba(193, 21, 21, 0.666);
+    color:black;
+  }
+  .timeline-section:before{
+    content:'';
+    position:absolute;
+    width:30px;
+    height:1px;
+    top:12px;
+    left:20px;
+  }
+  
+  .timeline-section:after{
+    content:'';
+    position:absolute;
+    width:10px;
+    height:10px;
+    top:7px;
+    left:11px;
+    border-radius:100%;
+  }
+  
+  
+  
+  .timeline-box{
+    position:relative;
+    color:#000000;
+    border-radius:15px;   
+    transition:all 0.3s ease;
+    overflow:hidden;
+    background-color: rgba(193, 21, 21, 0.27);
+  }
+  
+  .box-icon{
+    position:absolute;
+    right:5px;
+    top:0px;
+  }
+  
+  .box-title{
+    padding:10px 15px;
+    font-size: 25px;
+  }
+
+  .degree{
+      font-size: 15px;
+  }
+ 
+  .box-title i{
+    margin-right:5px;
+    
+  }
+  
+  .box-content{
+    padding:5px 15px;
+  }
+  
+  .box-item{
+    margin-bottom:5px;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+  }
+
+  footer{
+    padding: 1%;
+    color: #868e9699;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  
